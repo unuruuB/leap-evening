@@ -1,34 +1,27 @@
 .body{
-
     font-family: "Poppins", sans-serif;
-
+    width: 1933px;
 }
 .container{
     margin: 0 auto;
     width: 1280px;
     padding: 20px;
-
 }
-.header{
+.Header{
     display: flex;
     align-items: center;
     padding: 84px;
-}
-.header-content {
-    display: flex;
 }
 .header-logo { 
     flex: 1;
     width: 122px;
     display: block;
-
 }
 .header-menu {
     flex: 1;
     gap: 32px;
     display: flex;
     justify-content: flex-end;
-
 }
 .header-menu-item{
     font-size: 16px;
@@ -50,17 +43,18 @@
 }
 .Header-section{
     background-color: #dceaf5;
-    gap: 96px;
-    
-
-}
-.Header{ 
     display: flex;
     margin: 0 auto;
     width: 1933px;
     height: 703px;
-    top: 84px;
+    top: 84px;    
 }
+.header-content{  
+    width: 576;
+    height: 439px;
+    align-items: center;
+    padding: 117px;   
+}      
 .text1 {
     flex: 1;
     font-size: 64px;
@@ -69,7 +63,6 @@
     color: #1d3444;
     display: block;
     width: 576px;
-
 }
 .text2{
     flex: 1;
@@ -88,7 +81,6 @@
     width: 364px;
 }
 .s-button{
-   
     font-size: 16px;
     background-color: orange;
     border-radius: 27px;
@@ -114,12 +106,24 @@
 .logo1_1{ 
     flex: 1;
     margin: 0 auto;
-   
+}
+.container1{
+    position: absolute;
+    display: flex;
+    flex: 1;
+    background-color: #dceaf5;
+}
+.header-image{
+    width: 100%;
 }
 .help{
     gap: 96px;
     width: 1280px;
     margin: 0 auto;
+}
+.help1{
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 .help-text{
     width: 735px;
@@ -131,7 +135,6 @@
     font-weight: 600;
     line-height: 56px;
     letter-spacing: -0.03em;
-    
 }
 .help-text2{
     color: #5b5b5b;
@@ -139,13 +142,11 @@
     font-weight: 500;
     line-height: 30px;
     gap: 40px;
-
 }
 .help-post{
     display: flex;
     width: 1280px;
     gap: 40px;
-
 }
 .help1-text1 {
     color: #0d1317;
@@ -167,19 +168,16 @@
     line-height: 17px;
 }
 .Section-Features{
-    
     background-color: #edf7ff;
     margin: 0 auto;
     width: 1280px;
     padding: 96px;
-
 }
-.features_text{
+.text-content{
    display: flex; 
    gap: 40px;
-
 }
-.content{
+.content1{
     flex: 1;
     color: #0d1317;
     font-size: 36px;
@@ -197,11 +195,235 @@
 .features{
     display: flex;
 }
-.feature1{
+.feature{
     flex: 1;
     background-color: #ffffff;
     width: 401px;
+    height: 277px;
     border-radius: 20px;
-    gap: 40px;
-    
+    margin: 40px ;
 }
+.icon{
+    padding: 32px;
+}
+.box-p{
+    color: #0d1317;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 16px;
+}
+.box-text{
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.8;  
+}
+.about-section{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+}
+.content1{
+    color: #0d1317;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.content2{
+    color: #5b5b5b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.about-feature{
+    display: flex;
+}
+.about-feature-text1{
+    color: #0d1317;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 16px;
+}
+.about-feature-text2{
+    color: #5b5b5b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 16px;
+}
+.Service-Section{
+    position: relative;
+    display: flex;
+    background-color: #edf7ff;
+    border-radius: 20px;  
+    padding: 79px;
+    top: 84px;
+    text-align: center;
+}
+.tab{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 48px;
+    width: 580px;
+    height: 40px;
+}
+.service-text{
+    flex: 1;
+    width: 510px;
+    height: 210px;
+    margin: 0 auto;
+    padding: 48px;
+}
+.tab1{
+    background-color: #ffffff;
+    color: #f58a07;
+    border-radius: 31px;
+    width: 194px;        
+}
+.tab2{
+    background-color:#edf7ff; ;
+    color: rgba(6, 50, 85, 0.3);
+    box-sizing: border-box;
+    border: 1px solid #a8bccc;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 31px;
+    text-transform: capitalize;
+    width: 183px;
+}
+.ribbon{
+    position: absolute; top: 16; right: 0;
+}
+.CTA-section{
+    display: flex; 
+    width: 1920px;
+    height: 518px;
+  
+   
+}
+    
+.CTA-text{
+    background-color: #f58a07;
+}
+.cta-text{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    align-items: center;
+}
+.cta-button{
+    background-color: #ffffff;
+    color: #f58a07;
+    border-radius: 31px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    text-transform: capitalize;   }
+.Video-Section{
+    display: flex;
+    margin: 0 auto;
+    width: 1280px;
+    height: 501px;
+}
+.video-left{
+    align-items: center;
+    padding: 110px
+}
+.person{
+    display: flex;
+    gap: 24px;
+}
+.per-txt1{
+    color: #063255;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 41px;
+}
+.per-txt2{
+    color: #f58a07;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+}
+.Latest-Section{
+    background-color: #dceaf5;
+    width: 1920px;
+    height: 819px;
+    margin: 0 auto;
+    padding: 128px;
+}
+.l-text{
+    color: #0d1317;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    letter-spacing: -0.03em;
+}
+.container-f{
+    background-color: #063255;
+    margin:0 auto;
+    padding: 80px;
+}    
+.footer-top{
+    display: flex;
+    align-items: center;
+    color: #ffffff; 
+}
+.footer-left{
+    padding: 110px;
+    margin: 0 auto;
+}
+.input{
+    border: 1px solid white;
+    background-color: #ffffff;
+    padding: 10px 20;
+    border-radius: 31px;
+}
+.i-button{
+    background-color: #f58a07;
+    border-radius: 31px;
+    color: #ffffff;
+}
+.Ser_Header-section{
+    display: flex;
+    margin: 0 auto;
+    width: 1933px;
+    height: 703px;
+    top: 84px;    
+}
+.Feature_s1{
+    display: flex;
+    width: 1933px;
+    height: 550px;
+    top: 84px;
+    margin: 0 auto;
+}
+.feature1-text{ 
+    align-items: center;
+    width: 584px;
+    height: 294px;
+    margin: 0 auto;
+    padding: 80px;
+}
+.FH-T1{
+    color: #0d1317;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+}
+.fh-t2{
+    color: #5b5b5b;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+    
